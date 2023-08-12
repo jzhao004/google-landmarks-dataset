@@ -1,0 +1,5 @@
+data/annotations/train_clean.csv
+data/annotations/train_label_to_category.csv
+
+*.ipynb
+*.pyc
