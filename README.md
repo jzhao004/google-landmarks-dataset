@@ -1,7 +1,11 @@
 # google-landmarks-dataset
 
-Extracts information from Wikipedia for landmarks in Google Landmarks v2 (https://s3.amazonaws.com/google-landmark/metadata/train_clean.csv)
+Extracts information from Wikipedia for landmarks in [Google Landmarks v2](https://github.com/cvdfoundation/google-landmark)
 
+- [train_clean.csv](https://s3.amazonaws.com/google-landmark/metadata/train_clean.csv)
+- [train_label_to_category.csv](https://s3.amazonaws.com/google-landmark/metadata/train_label_to_category.csv)
+
+##### Files
 scrape_wikipedia.py: Extracts the following information for each landmark
 - Wikipedia page title
 - First two sentences of Wikipedia summary
