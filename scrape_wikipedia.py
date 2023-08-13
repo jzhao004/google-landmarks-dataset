@@ -110,7 +110,7 @@ if __name__ == "__main__":
         train.loc[i, 'lat'], train.loc[i, 'lon'] = wikipedia.coordinates(page_title)
 
         # get first 2 sentences of wikipedia summary
-        train.loc[i, 'summary'] = wiki_page.summary(exsentences=2)
+        train.loc[i, 'summary'] = remove_bracketed_words(wiki_page.summary(exsentences=2))
 
         # get section titles 
         ## exclude sections in omit_sec and sections with titles containing words in omit_sec_contain
